@@ -4,7 +4,7 @@ return {
     right = {
       {
         ft = "snacks_terminal",
-        size = { width = 0.25 },
+        size = { width = 0.33 },
         title = "%{b:snacks_terminal.id}: %{b:term_title}",
         filter = function(_buf, win)
           return vim.w[win].snacks_win
